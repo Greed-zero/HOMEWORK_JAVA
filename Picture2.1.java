@@ -33,7 +33,7 @@ public class Picture
      */
     public void draw()
     {
-        circle1= new Circle();
+       circle1= new Circle();
         circle1.changeColor("yellow");
         circle1.moveHorizontal(100);
         circle1.moveVertical(100);
@@ -41,10 +41,6 @@ public class Picture
         circle1.moveDown();
         circle1.moveDown();
         circle1.makeVisible();
-
-
-
-
     }
 
     /**

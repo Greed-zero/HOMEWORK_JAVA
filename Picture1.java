@@ -31,36 +31,17 @@ public class Picture
      */
     public void draw()
     {
-        wall = new Square();
-        wall.moveVertical(80);
-        wall.changeSize(100);
-        wall.makeInvisible();
-
-        window = new Square();
-        window.changeColor("black");
-        window.moveHorizontal(20);
-        window.moveVertical(100);
-        window.makeInvisible();
-
-        roof = new Triangle();
-        roof.changeSize(50, 140);
-        roof.moveHorizontal(60);
-        roof.moveVertical(70);
-        roof.makeInvisible();
-
-        sun = new Circle();
-        sun.changeColor("yellow");
-        sun.moveHorizontal(180);
-        sun.moveVertical(-10);
-        sun.changeSize(60);
-        sun.makeInvisible();
-
-        circle1= new Circle();
+         circle1= new Circle();
         circle1.changeColor("yellow");
         circle1.moveHorizontal(100);
         circle1.moveVertical(100);
         circle1.changeSize(40);
         circle1.makeVisible();
+        square1 =new Square();
+        square1.slowMoveVertical(20);
+        square1.changeSize(20);
+        square1.makeVisible();
+        square1.changeColor("blue");
     }
 
     /**
